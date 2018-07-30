@@ -7,7 +7,7 @@ if existsEnv("PORT"):
   settings.port = Port(parseInt(getEnv("PORT")))
 
 routes:
-  get "/":
+  get "/hoge":
     resp h1("yay :)", a(href="http://github.com/vic/heroku-buildpack-nim", "hoge link"))
 
 runForever()
