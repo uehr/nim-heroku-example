@@ -8,6 +8,6 @@ if existsEnv("PORT"):
 
 routes:
   get "/":
-    resp h1("yay :)")
+    resp h1("Hello from ", a(href="http://github.com/vic/heroku-buildpack-nim", "Heroku Nim Buildpack"))
 
 runForever()
