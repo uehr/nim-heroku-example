@@ -1,1 +1,1 @@
-web: ./example
+web: nim c -r example.nim
