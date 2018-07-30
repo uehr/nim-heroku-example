@@ -8,8 +8,6 @@ if existsEnv("PORT"):
 
 routes:
   get "/":
-    let hoge = h1("yay :)", a(href="http://github.com/vic/heroku-buildpack-nim", "hoge link"))
-    echo hoge
-    resp hoge
+    resp h1("yay :)")
 
 runForever()
