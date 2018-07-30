@@ -1,1 +1,1 @@
-web: nim c -r example.nim
+web: /app/tmp/cache/Nim/bin/nim c -r example.nim
